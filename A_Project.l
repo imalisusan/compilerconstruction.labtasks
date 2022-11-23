@@ -74,7 +74,7 @@ int main(){
     printf("\nNumber of matched courses in the given input file: %d\n", count_courses);
 
     //Compare skills
-    if (count_skills >= 7 && count_courses >=1)
+    if (count_skills >= 7 && count_courses >2)
     {
         printf("\nYou have been recommended for a senior role in web development %d");
     }
